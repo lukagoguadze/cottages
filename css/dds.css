@@ -1,0 +1,50 @@
+ body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+    }
+    .logo{
+        width: 60px;
+        border-radius: 50px;
+    }
+    .about-wrapper {
+      max-width: 1200px;
+      margin: 60px auto;
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    }
+
+    .logo-img {
+      max-width: 270px;
+      height: auto;
+    }
+
+    .company-name {
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .social-icons a {
+      color: #555;
+      font-size: 1.5rem;
+      margin-right: 15px;
+      transition: 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #007bff;
+    }
+    .lead{
+      text-align: justify
+    }
+
+    @media (max-width: 768px) {
+      .logo-img {
+        max-width: 250px;
+      }
+      .company-name {
+        font-size: 1.5rem;
+      }
+    }

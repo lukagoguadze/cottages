@@ -1,0 +1,21 @@
+            .logo{
+        width: 60px;
+        border-radius: 50px;
+    }
+    body {
+      padding-top: 80px;
+    }
+    .contact-container {
+      padding: 60px 15px;
+      background-color: #f8f9fa;
+    }
+    .contact-info {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .form-control:focus {
+      box-shadow: none;
+      border-color: #495057;
+    }

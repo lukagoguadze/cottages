@@ -1,0 +1,164 @@
+
+    #myCarousel {
+      height: 100vh;
+    }
+
+    .carousel-item {
+      height: 100vh;
+    }
+
+    .carousel-item img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
+
+    .content {
+      padding: 50px;
+      background-color: #f8f9fa;
+    }
+
+    .link-h3{
+        font-size: 17px;
+        padding-left: 5px;
+    }
+
+   /* .trala{
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      padding: 30px;
+      border-radius: 40px;
+      background-color: #101130a6;
+      box-sizing: border-box;
+
+    }
+      */
+    .logo{
+        width: 60px;
+        border-radius: 50px;
+    }
+
+
+
+.service-card {
+  display: block;
+  border-radius: 16px;
+  overflow: hidden;
+  text-decoration: none;
+  color: #222;
+  background: #fff;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  margin: auto;
+}
+
+.service-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
+
+.service-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 16px 16px 0 0;
+  background-color: #f0f0f0;
+  transition: filter 0.3s ease;
+}
+
+.service-card:hover .service-image {
+  filter: brightness(0.95);
+}
+
+.service-details {
+  padding: 20px 24px;
+}
+
+.service-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #1a1a1a;
+  line-height: 1.2;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.house-info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-size: 0.95rem;
+  color: #555;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.house-info span {
+  background: #f7f7f7;
+  padding: 6px 12px;
+  border-radius: 12px;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+  user-select: none;
+}
+.about-header {
+  background: linear-gradient(135deg, #e4d0cb, #f9f6f5); 
+  padding: 16px 24px;
+  border-radius: 12px;
+  margin: 30px auto 20px auto;
+  max-width: 1000px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06); 
+}
+
+.about-header h2 {
+  font-size: 18px;
+  color: #222; 
+  font-weight: 600;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+
+.carousel-slogan {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4); 
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  animation: fadeIn 2s ease-in-out;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 576px) {
+  .carousel-slogan {
+    font-size: 1.2rem;
+    padding: 8px 10px;
+    width: 90%;
+  }
+
+  .trala {
+    width: 90%;
+    max-width: 100%; 
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+}
+
+
